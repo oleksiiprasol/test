@@ -1,0 +1,359 @@
+@font-face {
+    font-family: 'LeksaSansPro';
+    src: url('./fonts/LeksaSansPro-ExtraBold.eot');
+    src: local('LeksaSansPro ExtraBold'), local('LeksaSansPro-ExtraBold'),
+        url('./fonts/LeksaSansPro-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LeksaSansPro-ExtraBold.woff2') format('woff2'),
+        url('./fonts/LeksaSansPro-ExtraBold.woff') format('woff'),
+        url('./fonts/LeksaSansPro-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LeksaSansPro';
+    src: url('./fonts/LeksaSansPro-DemiBoldItalic.eot');
+    src: local('LeksaSansPro DemiBold Italic'), local('LeksaSansPro-DemiBoldItalic'),
+        url('./fonts/LeksaSansPro-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LeksaSansPro-DemiBoldItalic.woff2') format('woff2'),
+        url('./fonts/LeksaSansPro-DemiBoldItalic.woff') format('woff'),
+        url('./fonts/LeksaSansPro-DemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'LeksaSansPro';
+    src: url('./fonts/LeksaSansPro-Italic.eot');
+    src: local('LeksaSansPro Italic'), local('LeksaSansPro-Italic'),
+        url('./fonts/LeksaSansPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LeksaSansPro-Italic.woff2') format('woff2'),
+        url('./fonts/LeksaSansPro-Italic.woff') format('woff'),
+        url('./fonts/LeksaSansPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'LeksaSansPro';
+    src: url('./fonts/LeksaSansPro-BlackItalic.eot');
+    src: local('LeksaSansPro Black Italic'), local('LeksaSansPro-BlackItalic'),
+        url('./fonts/LeksaSansPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LeksaSansPro-BlackItalic.woff2') format('woff2'),
+        url('./fonts/LeksaSansPro-BlackItalic.woff') format('woff'),
+        url('./fonts/LeksaSansPro-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'LeksaSansPro';
+    src: url('./fonts/LeksaSansPro-Light.eot');
+    src: local('LeksaSansPro Light'), local('LeksaSansPro-Light'),
+        url('./fonts/LeksaSansPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LeksaSansPro-Light.woff2') format('woff2'),
+        url('./fonts/LeksaSansPro-Light.woff') format('woff'),
+        url('./fonts/LeksaSansPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LeksaSansPro';
+    src: url('./fonts/LeksaSansPro-BoldItalic.eot');
+    src: local('LeksaSansPro Bold Italic'), local('LeksaSansPro-BoldItalic'),
+        url('./fonts/LeksaSansPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LeksaSansPro-BoldItalic.woff2') format('woff2'),
+        url('./fonts/LeksaSansPro-BoldItalic.woff') format('woff'),
+        url('./fonts/LeksaSansPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'LeksaSansPro';
+    src: url('./fonts/LeksaSansPro-ExtraLight.eot');
+    src: local('LeksaSansPro ExtraLight'), local('LeksaSansPro-ExtraLight'),
+        url('./fonts/LeksaSansPro-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LeksaSansPro-ExtraLight.woff2') format('woff2'),
+        url('./fonts/LeksaSansPro-ExtraLight.woff') format('woff'),
+        url('./fonts/LeksaSansPro-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LeksaSansPro';
+    src: url('./fonts/LeksaSansPro-Black.eot');
+    src: local('LeksaSansPro Black'), local('LeksaSansPro-Black'),
+        url('./fonts/LeksaSansPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LeksaSansPro-Black.woff2') format('woff2'),
+        url('./fonts/LeksaSansPro-Black.woff') format('woff'),
+        url('./fonts/LeksaSansPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LeksaSansPro';
+    src: url('./fonts/LeksaSansPro-LightItalic.eot');
+    src: local('LeksaSansPro Light Italic'), local('LeksaSansPro-LightItalic'),
+        url('./fonts/LeksaSansPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LeksaSansPro-LightItalic.woff2') format('woff2'),
+        url('./fonts/LeksaSansPro-LightItalic.woff') format('woff'),
+        url('./fonts/LeksaSansPro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'LeksaSansPro';
+    src: url('./fonts/LeksaSansPro-ExtraBoldItalic.eot');
+    src: local('LeksaSansPro ExtraBold Italic'), local('LeksaSansPro-ExtraBoldItalic'),
+        url('./fonts/LeksaSansPro-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LeksaSansPro-ExtraBoldItalic.woff2') format('woff2'),
+        url('./fonts/LeksaSansPro-ExtraBoldItalic.woff') format('woff'),
+        url('./fonts/LeksaSansPro-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'LeksaSansPro';
+    src: url('./fonts/LeksaSansPro.eot');
+    src: local('LeksaSansPro'),
+        url('./fonts/LeksaSansPro.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LeksaSansPro.woff2') format('woff2'),
+        url('./fonts/LeksaSansPro.woff') format('woff'),
+        url('./fonts/LeksaSansPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LeksaSansPro';
+    src: url('./fonts/LeksaSansPro-ExtraLightItalic.eot');
+    src: local('LeksaSansPro ExtraLight Italic'), local('LeksaSansPro-ExtraLightItalic'),
+        url('./fonts/LeksaSansPro-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LeksaSansPro-ExtraLightItalic.woff2') format('woff2'),
+        url('./fonts/LeksaSansPro-ExtraLightItalic.woff') format('woff'),
+        url('./fonts/LeksaSansPro-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'LeksaSansPro';
+    src: url('./fonts/LeksaSansPro-Bold.eot');
+    src: local('LeksaSansPro Bold'), local('LeksaSansPro-Bold'),
+        url('./fonts/LeksaSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LeksaSansPro-Bold.woff2') format('woff2'),
+        url('./fonts/LeksaSansPro-Bold.woff') format('woff'),
+        url('./fonts/LeksaSansPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LeksaSansPro';
+    src: url('./fonts/LeksaSansPro-DemiBold.eot');
+    src: local('LeksaSansPro DemiBold'), local('LeksaSansPro-DemiBold'),
+        url('./fonts/LeksaSansPro-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LeksaSansPro-DemiBold.woff2') format('woff2'),
+        url('./fonts/LeksaSansPro-DemiBold.woff') format('woff'),
+        url('./fonts/LeksaSansPro-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "LeksaSansPro";
+  font-weight: 700;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.p1,
+.p2,
+.p3,
+.p4,
+.large_btn,
+.medium_btn,
+.small_btn {
+  font-style: normal;
+  line-height: 120%;
+  margin: 0;
+}
+
+.p1,
+.p2,
+.p3,
+.p4 {
+  font-weight: 400;
+}
+
+.p1,
+.p2,
+.p3,
+.p4,
+.large_btn,
+.medium_btn,
+.small_btn {
+  font-family: "LeksaSansPro";
+}
+
+.large_btn,
+.medium_btn,
+.small_btn {
+  font-weight: 600;
+}
+
+@media (max-width: 767.98px) {
+  .h1 {
+    font-size: 2.25rem;
+  }
+
+  .h2 {
+    font-size: 2rem;
+  }
+
+  .h3 {
+    font-size: 1.75rem;
+  }
+
+  .h4 {
+    font-size: 1.5625rem;
+  }
+
+  .h5 {
+    font-size: 1.375rem;
+  }
+
+  .h6 {
+    font-size: 1.25rem;
+  }
+
+  .p1,
+  .large_btn {
+    font-size: 1.125rem;
+  }
+
+  .p2,
+  .medium_btn {
+    font-size: 1rem;
+  }
+
+  .p3,
+  .small_btn {
+    font-size: 0.875rem;
+  }
+
+  .p4 {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+  .h1 {
+    font-size: 2.5rem;
+  }
+
+  .h2 {
+    font-size: 2.25rem;
+  }
+
+  .h3 {
+    font-size: 2rem;
+  }
+
+  .h4 {
+    font-size: 1.75rem;
+  }
+
+  .h5 {
+    font-size: 1.5625rem;
+  }
+
+  .h6 {
+    font-size: 1.375rem;
+  }
+
+  .p1,
+  .large_btn {
+    font-size: 1.25rem;
+  }
+
+  .p2,
+  .medium_btn {
+    font-size: 1.0625rem;
+  }
+
+  .p3,
+  .small_btn {
+    font-size: 0.9375rem;
+  }
+
+  .p4 {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .h1 {
+    font-size: 2.8125rem;
+  }
+
+  .h2 {
+    font-size: 2.4375rem;
+  }
+
+  .h3 {
+    font-size: 2.1875rem;
+  }
+
+  .h4 {
+    font-size: 1.9375rem;
+  }
+
+  .h5 {
+    font-size: 1.6875rem;
+  }
+
+  .h6 {
+    font-size: 1.5rem;
+  }
+
+  .p1,
+  .large_btn {
+    font-size: 1.375rem;
+  }
+
+  .p2,
+  .medium_btn {
+    font-size: 1.1875rem;
+  }
+
+  .p3,
+  .small_btn {
+    font-size: 1.0625rem;
+  }
+
+  .p4 {
+    font-size: 0.9375rem;
+  }
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
