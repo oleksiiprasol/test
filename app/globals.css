@@ -1,403 +1,541 @@
-@font-face {
-  font-family: "Excentra Pro";
-  src: url("./fonts/ExcentraPro-ExtraLightItalic.eot");
-  src: local("Excentra Pro ExtraLight Italic"),
-    local("ExcentraPro-ExtraLightItalic"),
-    url("./fonts/ExcentraPro-ExtraLightItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("./fonts/ExcentraPro-ExtraLightItalic.woff2") format("woff2"),
-    url("./fonts/ExcentraPro-ExtraLightItalic.woff") format("woff"),
-    url("./fonts/ExcentraPro-ExtraLightItalic.ttf") format("truetype");
-  font-weight: 200;
-  font-style: italic;
-}
+/* Logo Fonts */
 
-@font-face {
-  font-family: "Excentra Pro";
-  src: url("./fonts/ExcentraPro-Medium.eot");
-  src: local("Excentra Pro Medium"), local("ExcentraPro-Medium"),
-    url("./fonts/ExcentraPro-Medium.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/ExcentraPro-Medium.woff2") format("woff2"),
-    url("./fonts/ExcentraPro-Medium.woff") format("woff"),
-    url("./fonts/ExcentraPro-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Excentra Pro";
-  src: url("./fonts/ExcentraPro-Italic.eot");
-  src: local("Excentra Pro Italic"), local("ExcentraPro-Italic"),
-    url("./fonts/ExcentraPro-Italic.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/ExcentraPro-Italic.woff2") format("woff2"),
-    url("./fonts/ExcentraPro-Italic.woff") format("woff"),
-    url("./fonts/ExcentraPro-Italic.ttf") format("truetype");
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Excentra Pro";
-  src: url("./fonts/ExcentraPro-Regular.eot");
-  src: local("Excentra Pro Regular"), local("ExcentraPro-Regular"),
-    url("./fonts/ExcentraPro-Regular.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/ExcentraPro-Regular.woff2") format("woff2"),
-    url("./fonts/ExcentraPro-Regular.woff") format("woff"),
-    url("./fonts/ExcentraPro-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Excentra Pro";
-  src: url("./fonts/ExcentraPro-Light.eot");
-  src: local("Excentra Pro Light"), local("ExcentraPro-Light"),
-    url("./fonts/ExcentraPro-Light.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/ExcentraPro-Light.woff2") format("woff2"),
-    url("./fonts/ExcentraPro-Light.woff") format("woff"),
-    url("./fonts/ExcentraPro-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Excentra Pro";
-  src: url("./fonts/ExcentraPro-ExtraBold.eot");
-  src: local("Excentra Pro ExtraBold"), local("ExcentraPro-ExtraBold"),
-    url("./fonts/ExcentraPro-ExtraBold.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/ExcentraPro-ExtraBold.woff2") format("woff2"),
-    url("./fonts/ExcentraPro-ExtraBold.woff") format("woff"),
-    url("./fonts/ExcentraPro-ExtraBold.ttf") format("truetype");
-  font-weight: 800;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Excentra Pro";
-  src: url("./fonts/ExcentraPro-LightItalic.eot");
-  src: local("Excentra Pro Light Italic"), local("ExcentraPro-LightItalic"),
-    url("./fonts/ExcentraPro-LightItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("./fonts/ExcentraPro-LightItalic.woff2") format("woff2"),
-    url("./fonts/ExcentraPro-LightItalic.woff") format("woff"),
-    url("./fonts/ExcentraPro-LightItalic.ttf") format("truetype");
-  font-weight: 300;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Excentra Pro";
-  src: url("./fonts/ExcentraPro-MediumItalic.eot");
-  src: local("Excentra Pro Medium Italic"), local("ExcentraPro-MediumItalic"),
-    url("./fonts/ExcentraPro-MediumItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("./fonts/ExcentraPro-MediumItalic.woff2") format("woff2"),
-    url("./fonts/ExcentraPro-MediumItalic.woff") format("woff"),
-    url("./fonts/ExcentraPro-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Excentra Pro";
-  src: url("./fonts/ExcentraPro-UltraLight.eot");
-  src: local("Excentra Pro UltraLight"), local("ExcentraPro-UltraLight"),
-    url("./fonts/ExcentraPro-UltraLight.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/ExcentraPro-UltraLight.woff2") format("woff2"),
-    url("./fonts/ExcentraPro-UltraLight.woff") format("woff"),
-    url("./fonts/ExcentraPro-UltraLight.ttf") format("truetype");
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Excentra Pro";
-  src: url("./fonts/ExcentraPro-SemiBoldItalic.eot");
-  src: local("Excentra Pro SemiBold Italic"),
-    local("ExcentraPro-SemiBoldItalic"),
-    url("./fonts/ExcentraPro-SemiBoldItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("./fonts/ExcentraPro-SemiBoldItalic.woff2") format("woff2"),
-    url("./fonts/ExcentraPro-SemiBoldItalic.woff") format("woff"),
-    url("./fonts/ExcentraPro-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Excentra Pro";
-  src: url("./fonts/ExcentraPro-ExtraBoldItalic.eot");
-  src: local("Excentra Pro ExtraBold Italic"),
-    local("ExcentraPro-ExtraBoldItalic"),
-    url("./fonts/ExcentraPro-ExtraBoldItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("./fonts/ExcentraPro-ExtraBoldItalic.woff2") format("woff2"),
-    url("./fonts/ExcentraPro-ExtraBoldItalic.woff") format("woff"),
-    url("./fonts/ExcentraPro-ExtraBoldItalic.ttf") format("truetype");
-  font-weight: 800;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Excentra Pro";
-  src: url("./fonts/ExcentraPro-Bold.eot");
-  src: local("Excentra Pro Bold"), local("ExcentraPro-Bold"),
-    url("./fonts/ExcentraPro-Bold.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/ExcentraPro-Bold.woff2") format("woff2"),
-    url("./fonts/ExcentraPro-Bold.woff") format("woff"),
-    url("./fonts/ExcentraPro-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Excentra Pro";
-  src: url("./fonts/ExcentraPro-UltraLightItalic.eot");
-  src: local("Excentra Pro UltraLight Italic"),
-    local("ExcentraPro-UltraLightItalic"),
-    url("./fonts/ExcentraPro-UltraLightItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("./fonts/ExcentraPro-UltraLightItalic.woff2") format("woff2"),
-    url("./fonts/ExcentraPro-UltraLightItalic.woff") format("woff"),
-    url("./fonts/ExcentraPro-UltraLightItalic.ttf") format("truetype");
-  font-weight: 200;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Excentra Pro";
-  src: url("./fonts/ExcentraPro-BoldItalic.eot");
-  src: local("Excentra Pro Bold Italic"), local("ExcentraPro-BoldItalic"),
-    url("./fonts/ExcentraPro-BoldItalic.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/ExcentraPro-BoldItalic.woff2") format("woff2"),
-    url("./fonts/ExcentraPro-BoldItalic.woff") format("woff"),
-    url("./fonts/ExcentraPro-BoldItalic.ttf") format("truetype");
-  font-weight: bold;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Excentra Pro";
-  src: url("./fonts/ExcentraPro-ExtraLight.eot");
-  src: local("Excentra Pro ExtraLight"), local("ExcentraPro-ExtraLight"),
-    url("./fonts/ExcentraPro-ExtraLight.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/ExcentraPro-ExtraLight.woff2") format("woff2"),
-    url("./fonts/ExcentraPro-ExtraLight.woff") format("woff"),
-    url("./fonts/ExcentraPro-ExtraLight.ttf") format("truetype");
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Excentra Pro";
-  src: url("./fonts/ExcentraPro-SemiBold.eot");
-  src: local("Excentra Pro SemiBold"), local("ExcentraPro-SemiBold"),
-    url("./fonts/ExcentraPro-SemiBold.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/ExcentraPro-SemiBold.woff2") format("woff2"),
-    url("./fonts/ExcentraPro-SemiBold.woff") format("woff"),
-    url("./fonts/ExcentraPro-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-}
-
-/**/
+/* Sakkal Majalla Bold Font */
 @font-face {
   font-family: "Sakkal Majalla Bold";
-  src: local("Sakkal Majalla Bold"), local("SakkalMajallaBold"),
-    url("./fonts/SakkalMajallaBold.ttf") format("truetype");
-  font-weight: 700;
-}
-
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-  font-family: "Excentra Pro";
-  font-weight: 700;
-}
-
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
-.p1,
-.p2,
-.p3,
-.p4,
-.large_btn,
-.medium_btn,
-.small_btn {
+  src: url("./fonts/Sakkal_Majalla_Bold_Font/Sakkal_Majalla_Bold.eot");
+  src: local("Sakkal Majalla Bold"), local("Sakkal Majalla Bold"),
+    url("./fonts/Sakkal_Majalla_Bold_Font/Sakkal_Majalla_Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Sakkal_Majalla_Bold_Font/Sakkal_Majalla_Bold.woff2")
+      format("woff2"),
+    url("./fonts/Sakkal_Majalla_Bold_Font/Sakkal_Majalla_Bold.woff")
+      format("woff"),
+    url("./fonts/Sakkal_Majalla_Bold_Font/Sakkal_Majalla_Bold.ttf")
+      format("truetype");
   font-style: normal;
-  line-height: 120%;
-  margin: 0;
+  font-weight: 700;
 }
 
-.p1,
-.p2,
-.p3,
-.p4 {
+/* Coronet LT Std Font */
+@font-face {
+  font-family: "Coronet LT Std";
+  src: url("./fonts/Coronet_LT_Std_Font/Coronet_LT_Std_Bold.eot");
+  src: local("Coronet LT Std Bold"), local("Coronet LT Std Bold"),
+    url("./fonts/Coronet_LT_Std_Font/Coronet_LT_Std_Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Coronet_LT_Std_Font/Coronet_LT_Std_Bold.woff2") format("woff2"),
+    url("./fonts/Coronet_LT_Std_Font/Coronet_LT_Std_Bold.woff") format("woff"),
+    url("./fonts/Coronet_LT_Std_Font/Coronet_LT_Std_Bold.ttf")
+      format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Coronet LT Std";
+  src: url("./fonts/Coronet_LT_Std_Font/Coronet_LT_Std_Regular.eot");
+  src: local("Coronet LT Std Regular"), local("Coronet LT Std Regular"),
+    url("./fonts/Coronet_LT_Std_Font/Coronet_LT_Std_Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Coronet_LT_Std_Font/Coronet_LT_Std_Regular.woff2")
+      format("woff2"),
+    url("./fonts/Coronet_LT_Std_Font/Coronet_LT_Std_Regular.woff")
+      format("woff"),
+    url("./fonts/Coronet_LT_Std_Font/Coronet_LT_Std_Regular.ttf")
+      format("truetype");
+  font-style: normal;
   font-weight: 400;
 }
 
-.p1,
-.p2,
-.p3,
-.p4,
-.large_btn,
-.medium_btn,
-.small_btn {
-  font-family: "Excentra Pro";
+/* Century Gothic Paneuropean Font */
+@font-face {
+  font-family: "Century Gothic Paneuropean";
+  src: url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Thin.eot");
+  src: local("Century Gothic Paneuropean Thin"),
+    local("Century Gothic Paneuropean Thin"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Thin.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Thin.woff2")
+      format("woff2"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Thin.woff")
+      format("woff"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Thin.ttf")
+      format("truetype");
+  font-style: normal;
+  font-weight: 100;
 }
 
-.large_btn,
-.medium_btn,
-.small_btn {
+@font-face {
+  font-family: "Century Gothic Paneuropean";
+  src: url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Light.eot");
+  src: local("Century Gothic Paneuropean Light"),
+    local("Century Gothic Paneuropean Light"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Light.woff2")
+      format("woff2"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Light.woff")
+      format("woff"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Light.ttf")
+      format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Century Gothic Paneuropean";
+  src: url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Regular.eot");
+  src: local("Century Gothic Paneuropean Regular"),
+    local("Century Gothic Paneuropean Regular"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Regular.woff2")
+      format("woff2"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Regular.woff")
+      format("woff"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Regular.ttf")
+      format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Century Gothic Paneuropean";
+  src: url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_SemiBold.eot");
+  src: local("Century Gothic Paneuropean SemiBold"),
+    local("Century Gothic Paneuropean SemiBold"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_SemiBold.woff2")
+      format("woff2"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_SemiBold.woff")
+      format("woff"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_SemiBold.ttf")
+      format("truetype");
+  font-style: normal;
   font-weight: 600;
 }
 
-@media (max-width: 767.98px) {
-  .h1 {
-    font-size: 2.25rem;
-  }
-
-  .h2 {
-    font-size: 2rem;
-  }
-
-  .h3 {
-    font-size: 1.75rem;
-  }
-
-  .h4 {
-    font-size: 1.5625rem;
-  }
-
-  .h5 {
-    font-size: 1.375rem;
-  }
-
-  .h6 {
-    font-size: 1.25rem;
-  }
-
-  .p1,
-  .large_btn {
-    font-size: 1.125rem;
-  }
-
-  .p2,
-  .medium_btn {
-    font-size: 1rem;
-  }
-
-  .p3,
-  .small_btn {
-    font-size: 0.875rem;
-  }
-
-  .p4 {
-    font-size: 0.75rem;
-  }
+@font-face {
+  font-family: "Century Gothic Paneuropean";
+  src: url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Bold.eot");
+  src: local("Century Gothic Paneuropean Bold"),
+    local("Century Gothic Paneuropean Bold"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Bold.woff2")
+      format("woff2"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Bold.woff")
+      format("woff"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Bold.ttf")
+      format("truetype");
+  font-style: normal;
+  font-weight: 700;
 }
 
-@media (min-width: 768px) and (max-width: 1023.98px) {
-  .h1 {
-    font-size: 2.5rem;
-  }
-
-  .h2 {
-    font-size: 2.25rem;
-  }
-
-  .h3 {
-    font-size: 2rem;
-  }
-
-  .h4 {
-    font-size: 1.75rem;
-  }
-
-  .h5 {
-    font-size: 1.5625rem;
-  }
-
-  .h6 {
-    font-size: 1.375rem;
-  }
-
-  .p1,
-  .large_btn {
-    font-size: 1.25rem;
-  }
-
-  .p2,
-  .medium_btn {
-    font-size: 1.0625rem;
-  }
-
-  .p3,
-  .small_btn {
-    font-size: 0.9375rem;
-  }
-
-  .p4 {
-    font-size: 0.875rem;
-  }
+@font-face {
+  font-family: "Century Gothic Paneuropean";
+  src: url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_ExtraBold.eot");
+  src: local("Century Gothic Paneuropean ExtraBold"),
+    local("Century Gothic Paneuropean ExtraBold"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_ExtraBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_ExtraBold.woff2")
+      format("woff2"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_ExtraBold.woff")
+      format("woff"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_ExtraBold.ttf")
+      format("truetype");
+  font-style: normal;
+  font-weight: 800;
 }
 
-@media (min-width: 1024px) {
-  .h1 {
-    font-size: 2.8125rem;
-  }
-
-  .h2 {
-    font-size: 2.4375rem;
-  }
-
-  .h3 {
-    font-size: 2.1875rem;
-  }
-
-  .h4 {
-    font-size: 1.9375rem;
-  }
-
-  .h5 {
-    font-size: 1.6875rem;
-  }
-
-  .h6 {
-    font-size: 1.5rem;
-  }
-
-  .p1,
-  .large_btn {
-    font-size: 1.375rem;
-  }
-
-  .p2,
-  .medium_btn {
-    font-size: 1.1875rem;
-  }
-
-  .p3,
-  .small_btn {
-    font-size: 1.0625rem;
-  }
-
-  .p4 {
-    font-size: 0.9375rem;
-  }
+@font-face {
+  font-family: "Century Gothic Paneuropean";
+  src: url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Black.eot");
+  src: local("Century Gothic Paneuropean Black"),
+    local("Century Gothic Paneuropean Black"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Black.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Black.woff2")
+      format("woff2"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Black.woff")
+      format("woff"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Black.ttf")
+      format("truetype");
+  font-style: normal;
+  font-weight: 900;
 }
 
-.box {
-  display: flex;
-  flex-direction: column;
-  gap: 28px;
+@font-face {
+  font-family: "Century Gothic Paneuropean";
+  src: url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Thin_Italic.eot");
+  src: local("Century Gothic Paneuropean Thin Italic"),
+    local("Century Gothic Paneuropean Thin Italic"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Thin_Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Thin_Italic.woff2")
+      format("woff2"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Thin_Italic.woff")
+      format("woff"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Thin_Italic.ttf")
+      format("truetype");
+  font-style: italic;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Century Gothic Paneuropean";
+  src: url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Light_Italic.eot");
+  src: local("Century Gothic Paneuropean Light Italic"),
+    local("Century Gothic Paneuropean Light Italic"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Light_Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Light_Italic.woff2")
+      format("woff2"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Light_Italic.woff")
+      format("woff"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Light_Italic.ttf")
+      format("truetype");
+  font-style: italic;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Century Gothic Paneuropean";
+  src: url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Italic.eot");
+  src: local("Century Gothic Paneuropean Italic"),
+    local("Century Gothic Paneuropean Italic"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Italic.woff2")
+      format("woff2"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Italic.woff")
+      format("woff"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Italic.ttf")
+      format("truetype");
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Century Gothic Paneuropean";
+  src: url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_SemiBold_Italic.eot");
+  src: local("Century Gothic Paneuropean SemiBold Italic"),
+    local("Century Gothic Paneuropean SemiBold Italic"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_SemiBold_Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_SemiBold_Italic.woff2")
+      format("woff2"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_SemiBold_Italic.woff")
+      format("woff"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_SemiBold_Italic.ttf")
+      format("truetype");
+  font-style: italic;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Century Gothic Paneuropean";
+  src: url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Bold_Italic.eot");
+  src: local("Century Gothic Paneuropean Bold Italic"),
+    local("Century Gothic Paneuropean Bold Italic"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Bold_Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Bold_Italic.woff2")
+      format("woff2"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Bold_Italic.woff")
+      format("woff"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Bold_Italic.ttf")
+      format("truetype");
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Century Gothic Paneuropean";
+  src: url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_ExtraBold_Italic.eot");
+  src: local("Century Gothic Paneuropean ExtraBold Italic"),
+    local("Century Gothic Paneuropean ExtraBold Italic"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_ExtraBold_Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_ExtraBold_Italic.woff2")
+      format("woff2"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_ExtraBold_Italic.woff")
+      format("woff"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_ExtraBold_Italic.ttf")
+      format("truetype");
+  font-style: italic;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Century Gothic Paneuropean";
+  src: url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Black_Italic.eot");
+  src: local("Century Gothic Paneuropean Black Italic"),
+    local("Century Gothic Paneuropean Black Italic"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Black_Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Black_Italic.woff2")
+      format("woff2"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Black_Italic.woff")
+      format("woff"),
+    url("./fonts/Century_Gothic_Paneuropean_Font/Century_Gothic_Paneuropean_Black_Italic.ttf")
+      format("truetype");
+  font-style: italic;
+  font-weight: 900;
+}
+
+/* General Fonts */
+
+/* Excentra Pro Font */
+@font-face {
+  font-family: "Excentra Pro";
+  src: url("./fonts/Excentra_Pro_Font/Excentra_Pro_ExtraLight_Italic.eot");
+  src: local("Excentra Pro ExtraLight Italic"),
+    local("Excentra Pro ExtraLight Italic"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_ExtraLight_Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_ExtraLight_Italic.woff2")
+      format("woff2"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_ExtraLight_Italic.woff")
+      format("woff"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_ExtraLight_Italic.ttf")
+      format("truetype");
+  /* font-weight: 200;
+  font-style: italic; */
+  font-style: italic;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Excentra Pro";
+  src: url("./fonts/Excentra_Pro_Font/Excentra_Pro_Medium.eot");
+  src: local("Excentra Pro Medium"), local("Excentra Pro Medium"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Medium.woff2") format("woff2"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Medium.woff") format("woff"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Excentra Pro";
+  src: url("./fonts/Excentra_Pro_Font/Excentra_Pro_Italic.eot");
+  src: local("Excentra Pro Italic"), local("Excentra Pro Italic"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Italic.woff2") format("woff2"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Italic.woff") format("woff"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Excentra Pro";
+  src: url("./fonts/Excentra_Pro_Font/Excentra_Pro_Regular.eot");
+  src: local("Excentra Pro Regular"), local("Excentra Pro Regular"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Regular.woff2") format("woff2"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Regular.woff") format("woff"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Excentra Pro";
+  src: url("./fonts/Excentra_Pro_Font/Excentra_Pro_Light.eot");
+  src: local("Excentra Pro Light"), local("Excentra Pro Light"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Light.woff2") format("woff2"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Light.woff") format("woff"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Excentra Pro";
+  src: url("./fonts/Excentra_Pro_Font/Excentra_Pro_ExtraBold.eot");
+  src: local("Excentra Pro ExtraBold"), local("Excentra Pro ExtraBold"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_ExtraBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_ExtraBold.woff2")
+      format("woff2"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_ExtraBold.woff") format("woff"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_ExtraBold.ttf")
+      format("truetype");
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Excentra Pro";
+  src: url("./fonts/Excentra_Pro_Font/Excentra_Pro_Light_Italic.eot");
+  src: local("Excentra Pro Light Italic"), local("Excentra Pro Light Italic"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Light_Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Light_Italic.woff2")
+      format("woff2"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Light_Italic.woff")
+      format("woff"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Light_Italic.ttf")
+      format("truetype");
+  font-style: italic;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Excentra Pro";
+  src: url("./fonts/Excentra_Pro_Font/Excentra_Pro_Medium_Italic.eot");
+  src: local("Excentra Pro Medium Italic"), local("Excentra Pro Medium Italic"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Medium_Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Medium_Italic.woff2")
+      format("woff2"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Medium_Italic.woff")
+      format("woff"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Medium_Italic.ttf")
+      format("truetype");
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Excentra Pro";
+  src: url("./fonts/Excentra_Pro_Font/Excentra_Pro_UltraLight.eot");
+  src: local("Excentra Pro UltraLight"), local("Excentra Pro UltraLight"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_UltraLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_UltraLight.woff2")
+      format("woff2"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_UltraLight.woff") format("woff"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_UltraLight.ttf")
+      format("truetype");
+  /* font-weight: 200;
+  font-style: normal; */
+  font-style: normal;
+  font-weight: 265;
+}
+
+@font-face {
+  font-family: "Excentra Pro";
+  src: url("./fonts/Excentra_Pro_Font/Excentra_Pro_SemiBold_Italic.eot");
+  src: local("Excentra Pro SemiBold Italic"),
+    local("Excentra Pro SemiBold Italic"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_SemiBold_Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_SemiBold_Italic.woff2")
+      format("woff2"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_SemiBold_Italic.woff")
+      format("woff"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_SemiBold_Italic.ttf")
+      format("truetype");
+  font-style: italic;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Excentra Pro";
+  src: url("./fonts/Excentra_Pro_Font/Excentra_Pro_ExtraBold_Italic.eot");
+  src: local("Excentra Pro ExtraBold Italic"),
+    local("Excentra Pro ExtraBold Italic"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_ExtraBold_Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_ExtraBold_Italic.woff2")
+      format("woff2"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_ExtraBold_Italic.woff")
+      format("woff"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_ExtraBold_Italic.ttf")
+      format("truetype");
+  font-style: italic;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Excentra Pro";
+  src: url("./fonts/Excentra_Pro_Font/Excentra_Pro_Bold.eot");
+  src: local("Excentra Pro Bold"), local("Excentra Pro Bold"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Bold.woff2") format("woff2"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Bold.woff") format("woff"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Excentra Pro";
+  src: url("./fonts/Excentra_Pro_Font/Excentra_Pro_UltraLight_Italic.eot");
+  src: local("Excentra Pro UltraLight Italic"),
+    local("Excentra Pro UltraLight Italic"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_UltraLight_Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_UltraLight_Italic.woff2")
+      format("woff2"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_UltraLight_Italic.woff")
+      format("woff"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_UltraLight_Italic.ttf")
+      format("truetype");
+  /* font-weight: 200;
+  font-style: italic; */
+  font-style: italic;
+  font-weight: 265;
+}
+
+@font-face {
+  font-family: "Excentra Pro";
+  src: url("./fonts/Excentra_Pro_Font/Excentra_Pro_Bold_Italic.eot");
+  src: local("Excentra Pro Bold Italic"), local("Excentra Pro Bold Italic"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Bold_Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Bold_Italic.woff2")
+      format("woff2"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Bold_Italic.woff")
+      format("woff"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_Bold_Italic.ttf")
+      format("truetype");
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Excentra Pro";
+  src: url("./fonts/Excentra_Pro_Font/Excentra_Pro_ExtraLight.eot");
+  src: local("Excentra Pro ExtraLight"), local("Excentra Pro ExtraLight"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_ExtraLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_ExtraLight.woff2")
+      format("woff2"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_ExtraLight.woff") format("woff"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_ExtraLight.ttf")
+      format("truetype");
+  /* font-weight: 200;
+  font-style: normal; */
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Excentra Pro";
+  src: url("./fonts/Excentra_Pro_Font/Excentra_Pro_SemiBold.eot");
+  src: local("Excentra Pro SemiBold"), local("Excentra Pro SemiBold"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_SemiBold.woff2") format("woff2"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_SemiBold.woff") format("woff"),
+    url("./fonts/Excentra_Pro_Font/Excentra_Pro_SemiBold.ttf")
+      format("truetype");
+  font-style: normal;
+  font-weight: 600;
 }
 
 .logo {
