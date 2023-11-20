@@ -4,10 +4,30 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <div className="box">
-      <p>Logo font:</p>
-      <h1 className="logo">YOGATODAYua</h1>
-      <p>Similar "Excentra Pro" font:</p>
-      <h1 className="similar_logo_font_excentra_pro">YOGATODAYua</h1>
+      <div className="test">
+        <div className="h2">
+          <h2>Відкрийте для себе йогу разом з нами</h2>
+          <div className="p">
+            <p className="p1">
+              Розкрийте для себе всю глибину йоги разом із нами! У нашій студії
+              – три світлі та просторі зали з кондиціонерами, одна з яких може
+              вмістити від 40 до 45 осіб. Це ідеальне місце не лише для занять,
+              але й для проведення семінарів, лекцій та
+              майстер-класів. Фіто-бар, масажний кабінет, зручні роздягальні з
+              душовими кімнатами, а також компетентні адміністратори – все для
+              вашого комфорту. Вартість наших абонементів – без конкуренції! 
+            </p>
+            <p className="p2">
+              У нас завжди чисто, світло та комфортно у будь-яку пору року!
+              Завітайте, приєднуйтеся! Будемо раді вас бачити!
+            </p>
+          </div>
+        </div>
+        <div className="buttons">
+          <div className="button1">Переглянути розклад</div>
+          <div className="button2">Наші інструктори</div>
+        </div>
+      </div>
     </div>
   );
 }

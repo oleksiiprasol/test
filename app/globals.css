@@ -538,18 +538,100 @@
   font-weight: 600;
 }
 
-.logo {
-  font-family: "Sakkal Majalla Bold";
-  font-size: 45px;
-  font-style: normal;
-  font-weight: 700;
-  color: black;
+.box {
+  display: flex;
+  padding: 32px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--drover-100-brand, #fff7b3);
 }
 
-.similar_logo_font_excentra_pro {
-  font-family: "Excentra Pro";
-  font-size: 31px;
+.test {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+}
+
+.h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+  align-self: stretch;
+}
+
+.h2 h2 {
+  color: var(--drover-700, #a45f04);
+  align-self: stretch;
+  font-family: Excentra Pro;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 124%;
+  margin: 0;
+}
+
+.p {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+  align-self: stretch;
+}
+
+.p p {
+  margin: 0;
+}
+
+.p1 {
+  color: var(--drover-700, #a45f04);
+  align-self: stretch;
+  font-family: Century Gothic Paneuropean;
+  font-size: 18px;
   font-style: normal;
   font-weight: 600;
-  color: black;
+  line-height: 132%;
+  letter-spacing: 0.18px;
+}
+
+.p2 {
+  color: var(--drover-700, #a45f04);
+  align-self: stretch;
+  font-family: Century Gothic Paneuropean;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 132%;
+  letter-spacing: 0.142px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+}
+
+.button1,
+.button2 {
+  display: flex;
+  padding: 14px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  border: 2px solid var(--drover-700, #a45f04);
+  color: var(--drover-700, #a45f04);
+  font-family: Century Gothic Paneuropean;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 132%; /* 23.76px */
+}
+
+.button1 {
+  background: var(--drover-300, #ffde44);
 }
